@@ -1,0 +1,286 @@
+.html{
+display: block;
+width: 375px;
+height: 812px;
+background: #FFFFFF;;
+}
+.header{
+display: block;
+position: absolute;
+width: 375px;
+height: 544px;
+left: 0px;
+top: calc(50% - 544px/2 - 134px);
+
+background: #C2DEFF;
+border-radius: 30px;
+}
+
+.logo{
+display: block;
+position: absolute;
+width: 269px;
+height: 255px;
+left: 54px;
+top: 243px;
+
+
+
+
+}
+.ram{
+/* рамка */
+position: absolute;
+width: 328px;
+height: 386px;
+left: 23px;
+top: 131px;
+
+border: 5px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.text1{
+	/* ДОБРОЕ СЕРДЦЕ */
+position: absolute;
+width: 292px;
+height: 43px;
+left: 41px;
+top: 182px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 33px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.text2{
+position: static;
+width: 143px;
+height: 28px;
+left: calc(50% - 143px/2);
+top: calc(50% - 28px/2);
+
+/* TT Commons Title 2 */
+
+font-family: TT Commons;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 122% */
+
+
+/* Light Header / Text */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+margin: 0px 6px;
+}
+
+.button{
+position: absolute;
+width: 298px;
+height: 74px;
+left: 38px;
+top: 508px;
+align-self:center;
+
+background: #5C9CE6;
+border: 3px solid #74A2D6;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.button1{
+position: absolute;
+width: 298px;
+height: 74px;
+left: 38px;
+top: 580px;
+
+background: #5C9CE6;
+border: 3px solid #74A2D6;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.button2{
+position: absolute;
+width: 298px;
+height: 74px;
+left: 38px;
+top: 668px;
+
+background: #5C9CE6;
+border: 3px solid #74A2D6;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+.button3{
+/* кнопка меню ЛК */
+position: absolute;
+width: 113px;
+height: 40px;
+left: 258px;
+top: 15px;
+
+border: 2px solid #2688EB;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.button4{
+/* кнопка меню SPIS */
+position: absolute;
+width: 113px;
+height: 40px;
+left: 131px;
+top: 15px;
+
+border: 2px solid #2688EB;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.button5{
+/* кнопка меню NOV */
+position: absolute;
+width: 113px;
+height: 40px;
+left: 4px;
+top: 15px;
+
+border: 2px solid #2688EB;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.text2{
+position: absolute;
+width: 220px;
+height: 30px;
+left: 39px;
+top: 20px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.footer{
+position: fixed;
+width: 375px;
+height: 130px;
+background: #FFFFFF;
+left: 0px;
+top: 682px;
+
+
+}
+.line_menu{
+position: absolute;
+width: 375px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #2688EB;
+transform: rotate(0.15deg);
+}
+
+.LK{
+position: absolute;
+width: 28px;
+height: 28px;
+left: 260px;
+top: 21px;
+
+}
+
+.SPIS{
+position: absolute;
+width: 28px;
+height: 28px;
+left: 133px;
+top: 21px;
+}
+
+.NOV{
+position: absolute;
+width: 28px;
+height: 28px;
+left: 9px;
+top: 21px;
+}
+
+.menu{
+/* Текст LK */
+position: absolute;
+width: 69px;
+height: 20px;
+left: 293px;
+top: 26px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.24px;
+
+color: #2688EB;
+}
+
+.menu1{
+/* Текст SPIS */
+position: absolute;
+width: 76px;
+height: 20px;
+left: 162px;
+top: 26px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.24px;
+
+color: #2688EB;
+}
+
+.menu2{
+/* Текст NOV */
+position: absolute;
+width: 63px;
+height: 20px;
+left: 42px;
+top: 25px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.24px;
+
+color: #2688EB;
+}

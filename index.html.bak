@@ -1,0 +1,28 @@
+<html class="html">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<title>Доброе сердце</title>
+</head>
+<body>
+		<div class="header">
+			<div class="ram"></div>
+			<div class="text1">ДОБРОЕ СЕРДЦЕ</div>
+			<img src="logo.png" class="logo">
+				<button class="button"  onclick="window.location.href = 'menu.html';"><a class="text2">РЕГИСТРАЦИЯ</a></button>
+				
+				<ul class="button1">
+					<a class="text2">РЕГИСТРАЦИЯ</a>
+				</ul>
+				<ul class="button2">
+					<a class="text2">ИНФОРМАЦИЯ</a>
+				</ul>
+		</div>
+	
+	<script src="vkBridge.js"></script>
+	<script>vkBridge.send('VKWebAppInit');</script>
+	<script src="index.js"></script>
+</body>
+</html>
