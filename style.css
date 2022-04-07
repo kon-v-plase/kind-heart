@@ -298,6 +298,26 @@ letter-spacing: -0.24px;
 color: #2688EB;
 }
 
+.menu2_click{
+/* Текст NOV */
+position: absolute;
+width: 63px;
+height: 20px;
+left: 42px;
+top: 25px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.24px;
+
+color: #EF5DA8;
+}
+
 .map {
 	height: 100vh;
 	width: 100%;
