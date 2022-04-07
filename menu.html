@@ -1,0 +1,27 @@
+<html class="html">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+	<title>Доброе сердце</title>
+	 <script src="https://api-maps.yandex.ru/2.1/?apikey=a933f131-f8c6-447d-8ab5-c177c39633b7y&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body>
+	<div id="map" class="map"></div>
+	<script src="menu.js" type="text/javascript"></script>
+	<div class="footer">
+		<div class="line_menu"></div>
+		<div class="button3"></div>
+			<div> <img src="LK.svg" class="LK"><a class="menu">Профиль</a></div>
+		<div class="button4"></div>
+			<div> <img src="SPIS.svg" class="SPIS"><a class="menu1">Животные</a></div>
+		<div class="button5"></div>
+			<img src="NOV.svg" class="NOV"><a class="menu2">Новости</a></div>
+	</div>
+	<script src="vkBridge.js"></script>
+	<script>vkBridge.send('VKWebAppInit');</script>
+	<script src="index.js"></script>
+</body>
+</html>
