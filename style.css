@@ -181,11 +181,11 @@ color: #FFFFFF;
 }
 .footer{
 position: fixed;
-width: 375px;
 height: 100px;
 background: #FFFFFF;
 left: 0px;
-top: 682px;
+bottom: 0; /* Position the navbar at the bottom of the page */
+width: 100%; /* Full width */
 
 
 }
