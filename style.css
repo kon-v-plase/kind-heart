@@ -163,6 +163,19 @@ border: 2px solid #2688EB;
 box-sizing: border-box;
 border-radius: 5px;
 }
+
+.button5_click{
+position: absolute;
+width: 113px;
+height: 40px;
+left: 4px;
+top: 15px;
+
+border: 2px solid #EF5DA8;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
 .text2{
 position: absolute;
 width: 220px;
