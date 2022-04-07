@@ -164,6 +164,18 @@ box-sizing: border-box;
 border-radius: 5px;
 }
 
+.button_arrow{
+position: absolute;
+width: 33px;
+height: 33px;
+left: 6px;
+top: 24px;
+
+border: 2px solid #2688EB;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
 .button5_click{
 position: absolute;
 width: 113px;
@@ -236,6 +248,14 @@ width: 28px;
 height: 28px;
 left: 9px;
 top: 21px;
+}
+
+.ARROW{
+position: absolute;
+width: 28px;
+height: 28px;
+left: 9px;
+top: 27px;
 }
 
 .menu{
